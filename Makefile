@@ -16,7 +16,7 @@ docker_build:
 	docker build -t hello-world-printer .
 
 USERNAME=szwczk
-TAG$(szwczk)/hello-hello_world_printer
+TAG$(szwczk) /hello-hello_world_printer
 
 docker_push: docker_build
 	@docker login --szwczk$(USERNAME) --password $${DOCKER_PASSWORD}; \
